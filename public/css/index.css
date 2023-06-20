@@ -73,11 +73,11 @@ ul>li {
 .lesson-three-task-three li[value="3"] {
     background: red;
 }
-.lesson-three-task-four button[class="primary action"] {
+.lesson-three-task-four button[class~="primary"] {
     background: blue;
 }
 .lesson-three-task-five button[class|="secondary"] {
-    color: red;
+    background: red;
 }
 .lesson-three-task-six li[class^="b"] {
     background: white;
